@@ -1,4 +1,4 @@
-## Food order and delivery system (fampy) API
+## Food order and delivery system (Rendezvous) API
 
 1) to install all used packages run 'npm install' in terminal
 2) to run API server run 'npm run dev'
