@@ -1,0 +1,46 @@
+{
+  "name": "rendezvousapi",
+  "version": "1.0.0",
+  "description": "Api for rendezvous web and android application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "lint": "eslint ./",
+    "test": "mocha --recursive --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shovan404/DissertationAPI.git"
+  },
+  "keywords": [
+    "Mongo"
+  ],
+  "author": "Shovan Raj Joshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/API/issues"
+  },
+  "homepage": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.2",
+    "mongoose": "^5.8.10",
+    "mongoose-unique-validator": "^2.0.3",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "swagger-jsdoc": "^3.5.0",
+    "swagger-ui-express": "^4.1.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "mocha": "^7.0.1",
+    "mockgoose": "^8.0.4",
+    "supertest": "^4.0.2"
+  }
+}
